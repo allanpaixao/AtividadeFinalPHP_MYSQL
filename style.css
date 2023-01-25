@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+
+
+
+#overhead1{
+    background-color:#1d24d3;
+    height: 50px;
+}
+#overhead2{
+    background-color: #f2f551;
+    height: 10px;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #1d56ea;
+    justify-content: space-between;
+    height: 70px;
+}  
+
+#logo{
+    text-transform: uppercase;
+    padding-left: 20px;
+    color: rgb(238, 237, 230);
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.botoes{
+    justify-content: center;
+    margin-right: 20px;
+    text-justify: center;
+    color: #fff;
+}
+.botoes a{
+    text-decoration: none;
+    align-items: center;
+    color: rgb(247, 235, 235);
+}
+
+.ri-shopping-bag-2-fill , .ri-heart-fill{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.search-txt{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    border-radius:15px ;
+    width: 571px;
+    height: 31px;
+
+} 
+nav li{
+    background-color: #1d56ea;
+    border-radius:  10px;
+    width: 110px;
+    color: #f2f551;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+ 
+.carousel{
+    width: 70%;
+    height: 500px;
+}
+.carousel-item img{
+    width: 50%;
+    height: 300px;
+}
+.carousel-indicators.active{
+    color: rgb(34, 72, 226);
+}
+.rounded{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 284px;
+    top: 60px;
+}
+.force{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+ul li a {
+	color:"#fff";
+	text-decoration: none;
+}
+
+ul li a:hover {
+	background-color: #000;
+	text-decoration: none;
+}
+
+.tenis{
+    display:flex;
+    width: 100vw;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.dropdown-item .active:hover .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  } {
+    background-color: #000;
+}
